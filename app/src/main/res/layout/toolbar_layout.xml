@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_journal"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/maincolor"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+
+    <ImageButton
+        android:id="@+id/journal_btn_home"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_keyboard_backspace_black_24dp"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/journal_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/journal_heading"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:visibility="visible"
+            />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

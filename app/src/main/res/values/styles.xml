@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <!--Dark Mode Theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/bebas_neue_bold</item>
+
+        <!-- Theme Attributes -->
+        <item name="bgcolor">@color/colorPrimaryDark</item>
+        <item name="textcolor">@color/white</item>
+        <item name="maincolor">@color/colorMainDark</item>
+        <item name="iconcolor">@color/colorAccent</item>
+        <item name="lighttextcolor">@color/white</item>
+        <item name="blacktextcolor">@color/black</item>
+        <item name="subtextcolor">@color/lightgrey</item>
+        <item name="accent">@color/colorAccent</item>
+        <item name="cardbgcolor">@color/white</item>
+        <item name="secondcolor">@color/colorDrawer</item>
+        <item name="android:statusBarColor">@color/colorMainDark</item>
+    </style>
+
+    <!-- Light Mode theme. -->
+    <style name="DayMode" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/bebas_neue_bold</item>
+
+        <!-- Theme Attributes -->
+        <item name="bgcolor">@color/colorPrimaryLight</item>
+        <item name="maincolor">@color/colorsMainLight</item>
+        <item name="iconcolor">@color/white</item>
+        <item name="textcolor">@color/black</item>
+        <item name="lighttextcolor">@color/white</item>
+        <item name="blacktextcolor">@color/black</item>
+        <item name="subtextcolor">@color/grey</item>
+        <item name="cardbgcolor">@color/colorAccent</item>
+        <item name="accent">@color/colorAccent</item>
+        <item name="secondcolor">@color/colorDrawerLight</item>
+        <item name="android:statusBarColor">@color/colorsMainLight</item>
+    </style>
+
+
+    <style name="AppTheme.NoOverLay" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

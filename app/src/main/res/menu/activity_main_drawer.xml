@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_parametres"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Paramètres" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Noter l'application" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="A propos de l'application" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Quitter" />
+    </group>
+
+
+</menu>

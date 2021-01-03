@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/basket_list_articles"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/liste_des_articles"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/basket_article_list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!-- this item is clickable -->
+    <LinearLayout
+        android:id="@+id/basket_create_article_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:background="?attr/selectableItemBackground"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/cr_er_un_article"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            />
+
+        <ImageView
+            android:contentDescription="@string/logo_desc"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_add_black2_24dp"
+            android:background="@color/transparent"
+            android:layout_marginStart="5dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

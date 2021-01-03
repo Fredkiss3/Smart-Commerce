@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/money_dialog_name_title"
+                android:textSize="20sp"
+                android:textColor="#686868"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/money_dialog_chbre_title"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textColor="#686868"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/money_dialog_som_title"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textColor="#686868"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/money_nom_viz"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/dialog_money_test_name"
+                android:textSize="20sp"
+                android:textColor="?attr/blacktextcolor"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:scrollbars="horizontal"
+                android:maxLines="1" />
+
+
+            <TextView
+                android:id="@+id/money_chbre_viz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_money_test_chbre"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textColor="?attr/blacktextcolor"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/money_som_viz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_money_test_som"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textColor="?attr/blacktextcolor"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp">
+
+        <Button
+            android:id="@+id/money_btn_viz_dialog_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/dialog_annuler"
+            android:background="@color/transparent"
+            android:textColor="@color/dialog_btn_color"/>
+
+        <Button
+            android:id="@+id/money_btn_viz_dialog_modify"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/dialog_modifier"
+            android:textColor="@color/dialog_btn_color"
+            android:background="@color/transparent"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/stock_item_linearlayout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|start"
+                android:orientation="horizontal">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="0dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessParent"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="0dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/basket_item_name"
+
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:id="@+id/stock_article_name"
+                        android:layout_gravity="center_vertical"
+                        android:maxLines="1"
+                        android:ellipsize="end">
+
+                    </TextView>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical|end"
+              android:orientation="horizontal">
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:background="@color/transparent"
+                  android:gravity="center_vertical"
+                  android:layout_gravity="end|center_vertical"
+                  android:src="@drawable/ic_info_black_24dp"
+                  android:scaleType="centerInside"
+                  android:contentDescription="@string/logo_desc"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginRight="10dp" />
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/stock_article_info_linearlayout"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_article_type"
+                    android:gravity="center_vertical|start"
+                    android:padding="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/black_night"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    tools:ignore="NestedWeights">
+                </TextView>
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <TextView
+                        android:id="@+id/stock_article_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stock_article_type_placeholder"
+                        android:padding="10dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/grey"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        >
+                    </TextView>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical|start"
+                    android:textColor="@color/black_night"
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:text="@string/stock_left"
+                    tools:ignore="NestedWeights" />
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/stock_article_stock"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stock_left_placeholder"
+                        android:padding="10dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/grey"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        >
+                    </TextView>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_article_unit_price"
+                    android:gravity="center_vertical|start"
+                    android:padding="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/black_night"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    tools:ignore="NestedWeights">
+                </TextView>
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <TextView
+                        android:id="@+id/stock_article_unit_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stock_article_unit_price_placeholder"
+                        android:padding="10dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/grey"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        >
+                    </TextView>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_article_reference"
+                    android:gravity="center_vertical|start"
+                    android:padding="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/black_night"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    tools:ignore="NestedWeights">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/stock_article_reference"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_article_reference_placeholder"
+                    android:gravity="center_vertical|start"
+                    android:padding="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/grey"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/stock_article_modify_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:text="MODIFIER"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13sp"
+                    android:visibility="visible"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

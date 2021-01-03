@@ -1,0 +1,301 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="titre">Smart Commerce</string>
+    <string name="todo">TODO</string>
+    <string name="copyright2">Copyright © 2018 Fredhel KISSIE </string>
+    <string name="splash_com">Gérer votre commerce de manière efficace</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="banner">banner</string>
+    <string name="name">Entrer le nom</string>
+    <string name="nomHint">Nom</string>
+    <string name="banner_one">Enregistrez toutes vos dépenses.</string>
+    <string name="banner_two"> Votre nbAchetes en temps réel.</string>
+    <string name="banner_three"> Calculez votre bénéfice sur n\'importe qu\'elle période.</string>
+    <string name="pass_label">MOT DE PASSE</string>
+    <string name="u_name_label">NOM D\'UTILISATEUR</string>
+    <string name="login_btn_label">valider</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">USERNAME</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_history">historique</string>
+    <string name="title_activity_journal">JournalActivity</string>
+    <string name="tab_text_1">MONNAIES</string>
+    <string name="tab_text_2">Ventes</string>
+    <string name="tab_text_3">EMPRUNTS</string>
+    <string name="tab_text_4">DIVERS</string>
+    <string name="section_format"> Hello From this section !</string>
+    <string name="journal_heading"> Journal</string>
+    <string name="journal">Journal</string>
+    <string name="b_n_fices">Bénéfices</string>
+    <string name="nbAchetes">Stock</string>
+    <string name="price">50 FCFA</string>
+    <string name="dialog_annuler">Annuler</string>
+    <string name="dialog_modifier">Modifier</string>
+    <string name="dialog_money_test_name">Fred</string>
+    <string name="dialog_money_test_chbre">H-46</string>
+    <string name="dialog_money_test_som">500 F</string>
+    <string name="money_dialog_name_title">Nom :</string>
+    <string name="money_dialog_chbre_title">Chambre :</string>
+    <string name="money_dialog_som_title">Somme :</string>
+    <string name="selection">0 sélectionné</string>
+    <string name="dialog_btn_valid">Valider</string>
+    <string name="save">Enregistrer</string>
+    <string name="creer_un_pack">CREER UN PACK</string>
+    <string name="ajouter_un_capital">AJOUTER UN CAPITAL</string>
+    <string name="settings_drawer_title">PARAMETRES</string>
+    <string name="drawer_informations">Informations</string>
+    <string name="about">A PROPOS</string>
+    <string name="important_initialisation">
+        Les articles nouvellement crées doivent être
+        initialisés dans le stock. \nVous devez indiquer les prix unitaires de vente de chaque
+        produit nouvellement créé.
+    </string>
+
+    <string name="premium">
+        Veuillez acheter la version premium pour pouvoir bénéficier de cette fonctionnalité
+    </string>
+
+    <string name="notice">
+        L\'article que vous tentez de vendre n\'a pas de prix unitaire.\n
+        Veuillez l\'indiquer dans le stock.
+    </string>
+
+
+    <string name="exit">QUITTER</string>
+    <string name="title_activity_stock">StockActivity</string>
+    <string name="action_historique_appro">Historique</string>
+    <string name="about_text" tools:ignore="Typos">
+            \"Smart Commerce\" est une application de
+            gestion des activités de votre commerce.\n\n
+
+            Grâce à cette application vous pouvez :\n\n
+
+            • Enregistrer vos dépenses approvisionnelles \n
+            • Calculer votre bénéfice \n
+            • Calculer vos pertes \n
+            • Gérer les stocks \n
+            • Enregistrer les ventes \n
+            • Enregistrer les restes des différences de vos clients
+    </string>
+    <string name="logo_desc">logo</string>
+    <string name="author_infos">
+        version : 1.0 \n
+        Copyright © 2019 Fredhel KISSIE \n
+        email : fredkiss3@gmail.com
+    </string>
+    <string name="basket_som_lbl">Somme totale :</string>
+    <string name="basket_total_som">0 F</string>
+    <string name="basket_dep_lbl">dépenses sup :</string>
+    <string name="basket_som_dep_sup">500</string>
+    <string name="basket_list_lbl">Liste d\'achats</string>
+    <string name="basket_title">Panier d\'Achats n° 1</string>
+    <string name="basket_date" tools:ignore="TypographyDashes">15 - 02 - 2018</string>
+    <string name="basket_item_global_price">500 F</string>
+    <string name="basket_item_total_bought">x 10</string>
+    <string name="basket_item_name">Pain</string>
+    <string name="default_number">0</string>
+    <string name="som_hint">somme</string>
+    <string name="ajouter_un_produit">ajouter un achat</string>
+    <string name="liste_des_articles">Liste des articles</string>
+    <string name="cr_er_un_article">créer un article</string>
+    <string name="nom">Nom</string>
+    <string name="prix_unitaire">Prix unitaire d\'achat </string>
+    <string name="reduction_unit">Réduction ( somme ) </string>
+    <string name="reduction_global">Reduction du prix total d\'achat </string>
+    <string name="prix_achat">Prix d\'achat </string>
+    <string name="prix">Prix</string>
+    <string name="_0">0</string>
+    <string name="nombre_achet_s">Nombre achetés</string>
+    <string name="nombre">nombre</string>
+    <string name="prix_total_de_l_achat">Prix total de l\'achat</string>
+    <string name="basket_filling_card_title">Créer un article</string>
+    <string name="placeholder_sold_text">Aucune vente enregistrée pour aujourd\'hui</string>
+    <string name="stock_left">Stock restant :</string>
+    <string name="stock_left_placeholder">10</string>
+    <string name="stock_article_unit_price">prix de vente :</string>
+    <string name="stock_article_unit_price_placeholder">150 F</string>
+    <string name="stock_article_reference">référence :</string>
+    <string name="stock_article_reference_placeholder">mkA74</string>
+    <string name="stock_placeholder">Aucun élément en stock</string>
+    <string name="stock_article_type">type :</string>
+    <string name="stock_article_type_placeholder">Article simple</string>
+    <string name="app_name">Smart Commerce</string>
+    <string name="basket_article_filling_card_title_create">Créer un article</string>
+    <string name="basket_article_filling_card_title_edit">Modifier l\'article</string>
+    <string name="basket_article_filling_card_title_add">Ajout d\'un article</string>
+    <string name="stock_manage_title">Modification de l\'élément</string>
+    <string name="prix_unitaire_vente">Prix unitaire</string>
+    <string name="diff_placeholder">Aucune différence enregistrée</string>
+    <string name="item_name">PAIN</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Paramètres</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="article_nb_left">Restant : 5</string>
+
+</resources>
